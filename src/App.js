@@ -1,31 +1,30 @@
 import react from "react";
-import { Content } from "./components/Content";
-import { useDarkMode } from './styles/useDarkMode';
-import styled, {ThemeProvider} from "styled-components";
-import { Toggle } from "./components/Toggle";
-import { GlobalStyles, lightTheme, darkTheme } from "./styles/globalStyles";
+import Header from "./components/Header/index";
+import GlobalStyle from "./components/styles/global";
+import { ThemeProvider } from "styled-components";
+import light  from "./components/styles/themes/light";
+import dark from "./components/styles/themes/dark";
+import usePersistedState from "./utils/usePersistedState";
 
 
+const App = () => {
 
-const Container = styled.div`
-  max-width: 50%;
-  margin: 8rem auto 0;
+  const [theme, setTheme] = usePersistedState('theme', light);
 
-`
-function App() {
-  const [theme, toggleTheme] = useDarkMode();
-  const themeMode = theme === 'light' ? lightTheme : darkTheme;
-  console.log(theme);
+  const toggleTheme = () =>{
+    setTheme(theme.title === 'light' ? dark: light);
+  }
+
   return (
-    <ThemeProvider theme={themeMode}>
-    <Container>
-      <GlobalStyles />
-      <Toggle theme={theme} toggleTheme={toggleTheme} />
-      <Content />
-    </Container>
+    <ThemeProvider theme={theme}>
+    <div className="App">
+      <GlobalStyle />
+      <Header toggleTheme={toggleTheme} />
+    </div>
     </ThemeProvider>
    
   );
-}
+};
+
 
 export default App;
