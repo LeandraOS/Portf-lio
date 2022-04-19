@@ -6,7 +6,6 @@ import { ThemeContext } from "styled-components";
 import { shade } from "polished";
 import { Dots } from "../assets/dots";
 
-
 const Header = ({toggleTheme}) => {
 
     const { colors, title, dots } = useContext(ThemeContext);
