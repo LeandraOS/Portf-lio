@@ -9,7 +9,6 @@ import { Dots } from "../assets/dots";
 const Header = ({toggleTheme}) => {
 
     const { colors, title, dots } = useContext(ThemeContext);
-    console.log(`${dots.primary}`)
     return(
         <Container>
             <Dots primary={`${dots.primary}`} secondary={`${dots.secondary}`} terciary={`${dots.terciary}`}/>

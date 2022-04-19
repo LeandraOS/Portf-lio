@@ -5,7 +5,7 @@ import { ThemeProvider } from "styled-components";
 import light  from "./components/styles/themes/light";
 import dark from "./components/styles/themes/dark";
 import usePersistedState from "./utils/usePersistedState";
-
+import { Home } from "./pages/Home/Home";
 
 const App = () => {
 
@@ -20,6 +20,7 @@ const App = () => {
     <div className="App">
       <GlobalStyle />
       <Header toggleTheme={toggleTheme} />
+      <Home />
     </div>
     </ThemeProvider>
    
