@@ -5,12 +5,12 @@ export default {
     primary: "#333",
     secundary: "#C62E65",
     background: "#222",
-    text: "#fff",
+    text: "#dee2e6",
   },
 
   dots: {
       primary: "#852541",
-      secondary: "#D7ADB9",
+      secundary: "#D7ADB9",
       terciary: "#5498C9"
   }
 };

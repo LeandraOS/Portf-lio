@@ -12,7 +12,7 @@ export default {
 
     dots: {
         primary: '#852541',
-        secondary: '#BD939F',
+        secundary: '#BD939F',
         terciary: '#01497C'
     }
 
