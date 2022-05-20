@@ -11,8 +11,12 @@ export const Wrappper = styled.a`
     background: ${props => props.theme.dots.secundary };
     cursor: pointer;
     text-decoration: none;
+    &:hover {
+        transition: transform .1s ease;
+        transform: scale(1.02);
 
-    `
+    }
+    `;
 
 export const Text = styled.p`
     font-family: 'Montserrat', sans-serif;

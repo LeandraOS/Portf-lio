@@ -16,7 +16,7 @@ export const WrapperName = styled.div`
     top: 170px;
     text-align: center;
     margin-left: 100px;    
-`
+`;
 
 export const WrapperIcons = styled.div`
     display: flex;
@@ -24,5 +24,5 @@ export const WrapperIcons = styled.div`
     justify-content: center;
     gap: 1.8rem;
     cursor: pointer;
-   
-`
+    
+`;
