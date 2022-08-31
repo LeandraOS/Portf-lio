@@ -3,19 +3,17 @@ import React, { useContext } from "react";
 import { Container, Links, WrapperLinks } from "./styles";
 import Switch from "react-switch";
 import { ThemeContext } from "styled-components";
-import { shade } from "polished";
 import { Dots } from "../assets/Icons/dots";
 
 const Header = ({toggleTheme}) => {
 
-    const { colors, title, dots } = useContext(ThemeContext);
+    const {title, dots } = useContext(ThemeContext);
     return(
         <Container>
             <Dots primary={`${dots.primary}`} secundary={`${dots.secundary}`} terciary={`${dots.terciary}`}/>
             <WrapperLinks>
                 <Links className="teste" href="https://www.w3schools.com">About me</Links>
                 <Links className="teste" href="https://www.w3schools.com">Projects</Links>
-                <Links className="teste" href="https://www.w3schools.com">Communities</Links>
                 <Links className="teste" href="https://www.w3schools.com">Contacts</Links>
             </WrapperLinks>
             <Switch

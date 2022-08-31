@@ -1,12 +1,12 @@
 import styled from "styled-components";
 
-export const Image = styled.svg`
-    
-`
-
+export const Image = styled.svg``;
 export const Content = styled.div`
-    display: flex;
+  margin-top: 48px;
+  display: flex;
+
+  @media screen and (max-width: 800px) {
     flex-direction: column;
-    align-items: flex-end;
-    margin: 60px 100px 0 0 ;
-    `
+    height: 240px;
+  }
+`;

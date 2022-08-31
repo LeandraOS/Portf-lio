@@ -14,7 +14,11 @@ export const Wrappper = styled.a`
     &:hover {
         transition: transform .1s ease;
         transform: scale(1.02);
+    }
 
+    @media screen and (max-width: 800px) {
+      width: 300px;
+      margin-top: 0;
     }
     `;
 

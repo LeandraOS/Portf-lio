@@ -5,7 +5,7 @@ import AudioOutlined from '@ant-design/icons'
 export const Name = () => {
   return (
       <Title>
-        LEANDRA SILVA
+        Leandra Silva
       </Title>
   )
 }

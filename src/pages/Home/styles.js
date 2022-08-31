@@ -1,21 +1,36 @@
 import styled from "styled-components";
 
 export const Wrapper = styled.section`
-    max-width: 1500px;
+    max-width: min-content;
     margin: 0 auto;
     height: fit-content;
+    display: flex;
+    flex-direction: row;
+    column-gap: 8rem;
+
+    
+    @media screen and (max-width: 800px) {
+        margin-top: 1rem;
+        max-width: fit-content;
+        flex-direction: column-reverse;
+        align-items: center;
+        overflow: hidden;
+    }
 `
 
 export const WrapperName = styled.div`
-    display: flex;
     flex-direction: column;
     gap: 5rem;
+    width: max-content;
     justify-content: center;
-    position: absolute;
     align-items: center;
-    top: 170px;
     text-align: center;
-    margin-left: 100px;    
+    display: flex;
+    
+    @media screen and (max-width: 800px) {
+        gap: 2rem;
+
+    }
 `;
 
 export const WrapperIcons = styled.div`

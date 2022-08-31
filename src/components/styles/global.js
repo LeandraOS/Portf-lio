@@ -12,5 +12,5 @@ export default createGlobalStyle`
     color: ${props => props.theme.colors.text};
 
   }
-  }
+
 `;

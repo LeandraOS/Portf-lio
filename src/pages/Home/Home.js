@@ -28,7 +28,6 @@ export const Home = () => {
       <SearchFake />
       </WrapperName>
       <IconMy />
-      
     </Wrapper>
 
   )
