@@ -12,7 +12,7 @@ export const Wrappper = styled.a`
     cursor: pointer;
     text-decoration: none;
     &:hover {
-        transition: transform .1s ease;
+        transition: transform .3s ease;
         transform: scale(1.02);
     }
 

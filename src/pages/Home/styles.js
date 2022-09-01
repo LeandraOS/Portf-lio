@@ -8,7 +8,6 @@ export const Wrapper = styled.section`
     flex-direction: row;
     column-gap: 8rem;
 
-    
     @media screen and (max-width: 800px) {
         margin-top: 1rem;
         max-width: fit-content;
@@ -17,7 +16,6 @@ export const Wrapper = styled.section`
         overflow: hidden;
     }
 `
-
 export const WrapperName = styled.div`
     flex-direction: column;
     gap: 5rem;
