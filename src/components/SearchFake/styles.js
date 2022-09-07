@@ -20,7 +20,8 @@ export const Wrappper = styled.a`
       width: 300px;
       margin-top: 0;
     }
-    `;
+
+    `
 
 export const Text = styled.p`
     font-family: 'Montserrat', sans-serif;

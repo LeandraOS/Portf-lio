@@ -7,6 +7,7 @@ export const Content = styled.div`
 
   @media screen and (max-width: 800px) {
     flex-direction: column;
-    height: 240px;
+    height: 254px;
   }
+  
 `;

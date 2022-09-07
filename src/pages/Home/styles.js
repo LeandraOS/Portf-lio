@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.section`
     max-width: min-content;
     margin: 0 auto;
-    height: fit-content;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     column-gap: 8rem;
@@ -14,6 +14,9 @@ export const Wrapper = styled.section`
         flex-direction: column-reverse;
         align-items: center;
         overflow: hidden;
+    }
+    @media screen and (max-width: 1024px) {
+        height: fit-content;
     }
 `
 export const WrapperName = styled.div`

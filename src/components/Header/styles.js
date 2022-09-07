@@ -10,26 +10,19 @@ export const Container = styled.div`
     align-items: center;
     padding: 0 30px;
 
-    @media screen and (max-width: 800px) {
-      gap: 1.8rem;
+    @media screen and (max-width: 480px) {
+      gap: 1.4rem;
       padding: 0 20px;
     }
     `
-export const WrapperLinks = styled.nav`
-    display: flex;
-    gap: 7rem;
-  @media screen and (max-width: 800px) {
-    gap: 1.8rem;
-  }
-`
 
 export const Links = styled.a`
-    display: inline-block;
     position: relative;
     font-size: 20px;
     color: ${props => props.theme.colors.text};
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
       
       
       &::before {
@@ -38,20 +31,26 @@ export const Links = styled.a`
         display: block;
         width: 100%;
         height: 3px;
-        top: 32px;
+        top: 2rem;
         left: 0;
         background-color: ${props => props.theme.colors.text};;
         transform: scaleX(0);
         transform-origin: top left;
         transition: transform 0.5s ease;
+
+        @media screen and (max-width: 480px) {
+          height: 3px;
+          top: 1.4rem;
         }
+      }
       
       &:hover::before {
         transform: scaleX(1);
 
       }
 
-    @media screen and (max-width: 800px) {
-    font-size: 14px;
+    @media screen and (max-width: 480px) {
+    font-size: 11px;
   }
+
   `
