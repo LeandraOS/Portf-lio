@@ -5,7 +5,9 @@ export default {
     primary: "#333",
     secundary: "#C62E65",
     background: "#222",
+    secundaryBack: '#44484B',
     text: "#dee2e6",
+    shadow: '1'
   },
 
   dots: {

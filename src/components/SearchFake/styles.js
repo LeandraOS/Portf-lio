@@ -8,7 +8,7 @@ export const Wrappper = styled.a`
     width: 350px;
     border-radius: 50px;
     margin-top: 20px;
-    background: ${props => props.theme.dots.secundary };
+    background: ${props => props.theme.dots.secundary};
     cursor: pointer;
     text-decoration: none;
     &:hover {

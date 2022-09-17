@@ -4,10 +4,10 @@ export default {
     colors: {
         primary: '#F5F6F9', 
         secundary: '#D63AF9',
-
         background: '#fff',
-        text: '#333'
-
+        secundaryBack: '#EDEDED',
+        text: '#333',
+        shadow: '0.2'
     },
 
     dots: {

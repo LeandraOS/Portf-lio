@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import Switch from "react-switch";
 
 export const Container = styled.div`
     height: 5.5rem;
@@ -33,15 +32,10 @@ export const Links = styled.a`
         height: 3px;
         top: 2rem;
         left: 0;
-        background-color: ${props => props.theme.colors.text};;
+        background-color: ${props => props.theme.colors.text};
         transform: scaleX(0);
         transform-origin: top left;
         transition: transform 0.5s ease;
-
-        @media screen and (max-width: 480px) {
-          height: 3px;
-          top: 1.4rem;
-        }
       }
       
       &:hover::before {
@@ -50,7 +44,7 @@ export const Links = styled.a`
       }
 
     @media screen and (max-width: 480px) {
-    font-size: 11px;
+    font-size: 12px;
   }
 
   `

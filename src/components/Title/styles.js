@@ -6,5 +6,6 @@ export const TitleSection = styled.h2`
     font-size: 24px;
     text-align: center;
     padding-top: 4rem;
+    
 
 `
