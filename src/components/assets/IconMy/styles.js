@@ -5,9 +5,15 @@ export const Content = styled.div`
   margin-top: 48px;
   display: flex;
 
-  @media screen and (max-width: 800px) {
+  @media screen and (max-width: 768px) {
     flex-direction: column;
-    height: 254px;
+    height: 440px;
   }
+
+  @media screen and (min-width: 300px) and (max-width: 640px){
+    height: 244px;
+  }
+
   
+
 `;

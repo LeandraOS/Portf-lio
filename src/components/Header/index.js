@@ -27,6 +27,7 @@ const Header = ({ toggleTheme }) => {
           );
         })}      
       <Switch
+        className="switch"
         onChange={toggleTheme}
         checked={title === "dark"}
         checkedIcon={false}

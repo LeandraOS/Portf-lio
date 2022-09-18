@@ -6,13 +6,15 @@ export const Title = styled.h1`
     font-size: 56px;
     text-transform: uppercase;
    
-    @media screen and (max-width: 800px) {
+    @media screen and (max-width: 768px) {
+        font-size: 60px;
+    }
+
+    @media screen and (min-width: 300px) and (max-width: 640px) {
         margin: 4rem 0 1rem 0;
         font-size: 44px;
     }
 
-    @media screen and (max-width: 768px) {
-        font-size: 50px;
-    }
+    
 `
 
