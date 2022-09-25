@@ -23,10 +23,12 @@ export const Text = styled.p`
 
   @media screen and (max-width: 768px) {
     font-size: 18px;
+    
   }
 
   @media screen and (min-width: 300px) and (max-width: 640px) {
     font-size: 14px;
+    
   }
 `;
 export const TitleHello = styled.h2`
@@ -35,7 +37,9 @@ export const TitleHello = styled.h2`
   margin-bottom: 2rem;
   font-size: 28px;
 
-  @media screen and (min-width: 300px) and (max-width: 640px) {
+  @media screen and (min-width: 300px) and (max-width: 768px) {
     margin-bottom: 2.5rem;
+    margin-top: 2rem;
   }
+
 `;

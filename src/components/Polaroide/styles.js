@@ -6,9 +6,9 @@ export const Container = styled.div`
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  height: 28rem;
-  width: 25rem;
-  margin-top: 4rem;
+  height: 17.7rem;
+  width: 14rem;
+  margin-top: 1rem;
   box-shadow: 0px 0px 10px
     rgba(0, 0, 0, ${(props) => props.theme.colors.shadow});
 
@@ -17,20 +17,19 @@ export const Container = styled.div`
     transform: scale(1.02);
   }
   @media screen and (min-width: 300px) and (max-width: 640px) {
-    height: 22rem;
-    width: 18rem;
+    height: 14rem;
+    width: 10rem;
 }
 `;
 export const Icons = styled.div``;
 
 export const Icon = styled.img`
-  border-radius: 0.2rem;
-  height: 20.5rem;
-  width: 20rem;
+  height: 12.5rem;
+  width: 11.4rem;
 
   @media screen and (min-width: 300px) and (max-width: 640px) {
-    height: 15.5rem;
-    width: 15.5rem;
+    height: 8.5rem;
+    width: 8.5rem;
   }
 
 `;

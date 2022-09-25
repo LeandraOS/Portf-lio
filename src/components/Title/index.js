@@ -1,10 +1,10 @@
 import React from 'react'
 import { TitleSection } from './styles'
 
-export const Title = () => {
+export const Title = ({title}) => {
     return(
         <TitleSection>
-            About me
+            {title}
         </TitleSection>
     )
 

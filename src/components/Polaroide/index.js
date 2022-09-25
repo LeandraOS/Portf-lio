@@ -3,11 +3,11 @@ import { DotsMini } from '../assets/Icons/DotsMini'
 import { Container, Icon, Icons } from './styles'
 
 
-export const Polaroide = () => {
+export const Polaroide = ({url}) => {
     return(
         <Container>
             <Icons>
-            < Icon src={`https://github.com/leandraOS.png`} />
+            < Icon src={url} />
             <DotsMini />
             </Icons>
         </Container>

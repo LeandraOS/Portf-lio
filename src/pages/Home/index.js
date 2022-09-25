@@ -6,7 +6,6 @@ import { InstagramIcon } from '../../components/assets/Icons/InstagramIcon'
 import { LinkedinIcon } from '../../components/assets/Icons/LinkedinIcon'
 import { ThemeContext } from "styled-components";
 
-
 import { Name } from '../../components/Name'
 import { SearchFake } from '../../components/SearchFake'
 import { Wrapper, WrapperIcons, WrapperName } from './styles'
@@ -28,6 +27,7 @@ export const Home = () => {
       <SearchFake />
       </WrapperName>
       <IconMy />
+
     </Wrapper>
 
   )
