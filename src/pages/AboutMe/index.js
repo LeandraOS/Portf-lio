@@ -4,7 +4,7 @@ import { Polaroide } from "../../components/Polaroide";
 import { Title } from "../../components/Title";
 import { Container, Wrapper, WrapperPolaroide } from "./styles";
 import picture from "../../components/assets/Icons/IAndComputer.jpeg";
-import computer from "../../components/assets/Icons/ITumblr.png";
+import computer from "../../components/assets/Icons/ITumblr.jpeg";
 
 export const AboutMe = () => {
   return (
