@@ -19,17 +19,17 @@ export const Container = styled.div`
   @media screen and (min-width: 300px) and (max-width: 640px) {
     height: 14rem;
     width: 10rem;
-}
+  }
 `;
 export const Icons = styled.div``;
 
 export const Icon = styled.img`
   height: 12.5rem;
   width: 11.4rem;
+  object-fit: cover;
 
   @media screen and (min-width: 300px) and (max-width: 640px) {
     height: 8.5rem;
     width: 8.5rem;
   }
-
 `;
