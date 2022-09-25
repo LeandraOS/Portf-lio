@@ -7,6 +7,7 @@ export default {
         background: '#fff',
         secundaryBack: '#EDEDED',
         text: '#333',
+        contact:'#F2F2F2',
         shadow: '0.2'
     },
 

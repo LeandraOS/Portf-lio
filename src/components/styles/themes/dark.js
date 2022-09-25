@@ -7,6 +7,7 @@ export default {
     background: "#222",
     secundaryBack: '#44484B',
     text: "#dee2e6",
+    contact: "#3A3E42",
     shadow: '1'
   },
 

@@ -7,7 +7,7 @@ import dark from "./components/styles/themes/dark";
 import usePersistedState from "./utils/usePersistedState";
 import { Home } from "./pages/Home/";
 import { AboutMe } from "./pages/AboutMe";
-import { Contact } from "./pages/Contact";
+import { Contacts } from "./pages/Contacts";
 
 const App = () => {
 
@@ -24,7 +24,7 @@ const App = () => {
       <Header toggleTheme={toggleTheme} />
       <Home />
       <AboutMe />
-      <Contact />
+      <Contacts />
     </div>
     </ThemeProvider>
    
