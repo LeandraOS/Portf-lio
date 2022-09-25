@@ -17,7 +17,11 @@ export const ContainerTitle = styled.div`
 
   h2{
     margin-bottom: 2.5rem;
+
+    @media screen and (min-width: 300px) and (max-width: 640px) {
+      margin-bottom: 1.5rem;
   }
+}
 
 `
 
